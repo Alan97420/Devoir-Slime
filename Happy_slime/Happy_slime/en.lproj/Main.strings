@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "indisponible"; ObjectID = "2Zk-pY-J9u"; */
+"2Zk-pY-J9u.text" = "indisponible";
+
+/* Class = "UILabel"; text = "m"; ObjectID = "2wr-qX-JYE"; */
+"2wr-qX-JYE.text" = "m";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "BlP-VE-DUS"; */
+"BlP-VE-DUS.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Label"; ObjectID = "PGX-Wp-oFY"; */
+"PGX-Wp-oFY.normalTitle" = "PLAY";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PtU-Wb-MP4"; */
+"PtU-Wb-MP4.text" = "Label";
+
+/* Class = "UILabel"; text = "Point :"; ObjectID = "agm-05-G3b"; */
+"agm-05-G3b.text" = "Point :";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "c6T-Ql-nvu"; */
+"c6T-Ql-nvu.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "int-2X-2x6"; */
+"int-2X-2x6.normalTitle" = "Start";

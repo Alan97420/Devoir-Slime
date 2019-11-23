@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E772277A238633C300D543D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7722779238633C300D543D9 /* AppDelegate.swift */; };
+		E772277C238633C300D543D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772277B238633C300D543D9 /* SceneDelegate.swift */; };
+		E772277E238633C300D543D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772277D238633C300D543D9 /* ViewController.swift */; };
+		E7722781238633C300D543D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E772277F238633C300D543D9 /* Main.storyboard */; };
+		E7722783238633C400D543D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7722782238633C400D543D9 /* Assets.xcassets */; };
+		E7722786238633C400D543D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7722784238633C400D543D9 /* LaunchScreen.storyboard */; };
+		E772278E2386362600D543D9 /* slime_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E772278D2386362600D543D9 /* slime_interface.swift */; };
+		E772279023863A4B00D543D9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E772278F23863A4B00D543D9 /* art.scnassets */; };
+		E7AD9FE22388769E0053D49F /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AD9FE12388769E0053D49F /* RealityView.swift */; };
+		E7AD9FE4238876E40053D49F /* Slime3D.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E7AD9FE3238876E40053D49F /* Slime3D.rcproject */; };
+		E7AD9FF1238931620053D49F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7AD9FF3238931620053D49F /* Localizable.strings */; };
+		E7AD9FFD23898E410053D49F /* gamemus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7AD9FFC23898E410053D49F /* gamemus.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7722776238633C300D543D9 /* Happy_slime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy_slime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7722779238633C300D543D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E772277B238633C300D543D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E772277D238633C300D543D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7722780238633C300D543D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7722782238633C400D543D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7722785238633C400D543D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7722787238633C400D543D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E772278D2386362600D543D9 /* slime_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slime_interface.swift; sourceTree = "<group>"; };
+		E772278F23863A4B00D543D9 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		E7AD9FDE238871000053D49F /* slimeportrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slimeportrait.png; sourceTree = "<group>"; };
+		E7AD9FE12388769E0053D49F /* RealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
+		E7AD9FE3238876E40053D49F /* Slime3D.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Slime3D.rcproject; sourceTree = "<group>"; };
+		E7AD9FE623887BE40053D49F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E7AD9FF2238931620053D49F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7AD9FF4238931650053D49F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7AD9FF823898A8A0053D49F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		E7AD9FFB23898AE20053D49F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		E7AD9FFC23898E410053D49F /* gamemus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamemus.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7722773238633C300D543D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E772276D238633C300D543D9 = {
+			isa = PBXGroup;
+			children = (
+				E7722778238633C300D543D9 /* Happy_slime */,
+				E7722777238633C300D543D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7722777238633C300D543D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7722776238633C300D543D9 /* Happy_slime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7722778238633C300D543D9 /* Happy_slime */ = {
+			isa = PBXGroup;
+			children = (
+				E7722779238633C300D543D9 /* AppDelegate.swift */,
+				E772277B238633C300D543D9 /* SceneDelegate.swift */,
+				E772278F23863A4B00D543D9 /* art.scnassets */,
+				E772277D238633C300D543D9 /* ViewController.swift */,
+				E7AD9FDE238871000053D49F /* slimeportrait.png */,
+				E772277F238633C300D543D9 /* Main.storyboard */,
+				E7AD9FE3238876E40053D49F /* Slime3D.rcproject */,
+				E772278D2386362600D543D9 /* slime_interface.swift */,
+				E7AD9FFC23898E410053D49F /* gamemus.mp3 */,
+				E7722782238633C400D543D9 /* Assets.xcassets */,
+				E7722784238633C400D543D9 /* LaunchScreen.storyboard */,
+				E7722787238633C400D543D9 /* Info.plist */,
+				E7AD9FE12388769E0053D49F /* RealityView.swift */,
+				E7AD9FF3238931620053D49F /* Localizable.strings */,
+			);
+			path = Happy_slime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7722775238633C300D543D9 /* Happy_slime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E772278A238633C400D543D9 /* Build configuration list for PBXNativeTarget "Happy_slime" */;
+			buildPhases = (
+				E7722772238633C300D543D9 /* Sources */,
+				E7722773238633C300D543D9 /* Frameworks */,
+				E7722774238633C300D543D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Happy_slime;
+			productName = Happy_slime;
+			productReference = E7722776238633C300D543D9 /* Happy_slime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E772276E238633C300D543D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alan CHAN CHUN TIM";
+				TargetAttributes = {
+					E7722775238633C300D543D9 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = E7722771238633C300D543D9 /* Build configuration list for PBXProject "Happy_slime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = E772276D238633C300D543D9;
+			productRefGroup = E7722777238633C300D543D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7722775238633C300D543D9 /* Happy_slime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7722774238633C300D543D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AD9FF1238931620053D49F /* Localizable.strings in Resources */,
+				E7722786238633C400D543D9 /* LaunchScreen.storyboard in Resources */,
+				E772279023863A4B00D543D9 /* art.scnassets in Resources */,
+				E7722783238633C400D543D9 /* Assets.xcassets in Resources */,
+				E7AD9FFD23898E410053D49F /* gamemus.mp3 in Resources */,
+				E7722781238633C300D543D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7722772238633C300D543D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E772277E238633C300D543D9 /* ViewController.swift in Sources */,
+				E772277A238633C300D543D9 /* AppDelegate.swift in Sources */,
+				E7AD9FE4238876E40053D49F /* Slime3D.rcproject in Sources */,
+				E772278E2386362600D543D9 /* slime_interface.swift in Sources */,
+				E772277C238633C300D543D9 /* SceneDelegate.swift in Sources */,
+				E7AD9FE22388769E0053D49F /* RealityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E772277F238633C300D543D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7722780238633C300D543D9 /* Base */,
+				E7AD9FF823898A8A0053D49F /* en */,
+				E7AD9FFB23898AE20053D49F /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7722784238633C400D543D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7722785238633C400D543D9 /* Base */,
+				E7AD9FE623887BE40053D49F /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7AD9FF3238931620053D49F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7AD9FF2238931620053D49F /* en */,
+				E7AD9FF4238931650053D49F /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7722788238633C400D543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7722789238633C400D543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E772278B238633C400D543D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YAK28W9RG;
+				INFOPLIST_FILE = Happy_slime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "group.Happy-slime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E772278C238633C400D543D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YAK28W9RG;
+				INFOPLIST_FILE = Happy_slime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "group.Happy-slime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7722771238633C300D543D9 /* Build configuration list for PBXProject "Happy_slime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7722788238633C400D543D9 /* Debug */,
+				E7722789238633C400D543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E772278A238633C400D543D9 /* Build configuration list for PBXNativeTarget "Happy_slime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E772278B238633C400D543D9 /* Debug */,
+				E772278C238633C400D543D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E772276E238633C300D543D9 /* Project object */;
+}

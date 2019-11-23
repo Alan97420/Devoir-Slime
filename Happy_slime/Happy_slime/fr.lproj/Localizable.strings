@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Happy_slime
+
+  Created by Alan CHAN CHUN TIM on 23/11/2019.
+  Copyright © 2019 Alan CHAN CHUN TIM. All rights reserved.
+*/
+"text_title" = "Nombre de pas :";
+"text_title1" = "indisponible";
+"text_title2" = "marchez";
+"text_title3" = "bougez pas";
+"text_title4" = "courez";
+"text_title5" = "êtes en voiture";
+"text_title6" = "Vous :";
+
